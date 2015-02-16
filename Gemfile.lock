@@ -19,6 +19,8 @@ GEM
     i18n (0.7.0)
     json (1.8.2)
     minitest (5.5.1)
+    pg (0.18.1)
+    rake (10.4.2)
     thread_safe (0.3.4)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -28,3 +30,5 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (= 4.2.0)
+  pg
+  rake
