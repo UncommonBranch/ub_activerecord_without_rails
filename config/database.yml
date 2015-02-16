@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  database: ar_without_rails_development
+  encoding: unicode
+  pool: 5
+  username: rob
+  password: rob
+production:
+  adapter: postgresql
+  database: ar_without_rails_production
+  encoding: unicode
+  pool: 5
+  username: rob
+  password: rob
+test:
+  adapter: postgresql
+  database: ar_without_rails_test
+  encoding: unicode
+  pool: 5
+  username: rob
+  password: rob
+
